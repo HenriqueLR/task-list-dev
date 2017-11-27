@@ -1,0 +1,12 @@
+Sphinx
+flake8
+pytest
+coverage
+nose2
+nose
+tox
+twine
+pytest-cov
+pytest-watch
+nosey
+dose
