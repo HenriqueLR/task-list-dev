@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # coding: utf-8
 
 import os
@@ -26,7 +27,7 @@ app = __import__('task_list_dev')
 
 setup(
     name='task-list-dev',
-    version='1.0.2',
+    version='1.0.6',
     packages=find_packages(),
     include_package_data=True,
     license='MIT',

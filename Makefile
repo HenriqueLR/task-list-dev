@@ -2,7 +2,7 @@
 SHELL := /bin/bash
 
 install:
-	pip install -r requirements.txt
+	pip install -r requirements.txt --no-cache-dir
 
 test-unit-nose:
 	coverage erase ;\
@@ -34,3 +34,6 @@ doc:
 
 devtest:
 	pytest-watch
+
+build:
+	python setup.py sdist bdist_wheel ;\

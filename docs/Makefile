@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 SPHINXPROJ    = task-list-dev
 SOURCEDIR     = source
-BUILDDIR      = build
+BUILDDIR      = ../../task-list-dev-docs
 
 # Put it first so that "make" without argument is like "make help".
 help:
